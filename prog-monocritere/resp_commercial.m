@@ -1,4 +1,4 @@
-function [] = respcom( coef )
+function [] = resp_commercial(coef)
     
     %coef est 1 ou -1 en fonction si on fait ABC - DEF ou l'inverse
     A = [
@@ -12,7 +12,7 @@ function [] = respcom( coef )
         1,1,1,5,0,2;
         2,2,1,0,2,1;
         1,0,3,2,6,0; 
-        coef*1,coef*1,coef*1,-1*coef,-1*coef,-1*coef
+        coef*1, coef*1, coef*1, -1*coef, -1*coef, -1*coef
     ];
 
     b = [4800; 4800; 4800; 4800; 4800; 4800; 4800; 650; 820; 585; 0];

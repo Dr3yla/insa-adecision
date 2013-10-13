@@ -1,5 +1,5 @@
 %
-function[res, fval] = personnel2(maxSalary)
+function[res, fval] = res_personnel(maxSalary)
     
     maxSalary = 6473.2;
 

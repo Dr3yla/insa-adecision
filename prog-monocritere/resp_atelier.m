@@ -1,4 +1,4 @@
-function [X] = atelier()
+function [X] = resp_atelier()
 
     A = [
         11,15,0,5,0,10;

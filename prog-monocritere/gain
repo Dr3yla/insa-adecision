@@ -34,4 +34,12 @@ S5=[238.6,0,0,0,0,0];
   
 %stock
 
+   %matrice des besoins en matières premières
+    B = [1 1 1 5 0 2; 2 2 1 0 2 1; 1 0 3 2 6 0];
+    
+  stock=trace(S1'*B(1,:))+trace(S1'*B(2,:))+trace(S1'*B(3,:))+sum(S1)
+  stock=trace(S2'*B(1,:))+trace(S2'*B(2,:))+trace(S2'*B(3,:))+sum(S2)
+  stock=trace(S3'*B(1,:))+trace(S3'*B(2,:))+trace(S3'*B(3,:))+sum(S3)
+  stock=trace(S4'*B(1,:))+trace(S4'*B(2,:))+trace(S4'*B(3,:))+sum(S4)
+  stock=trace(S5'*B(1,:))+trace(S5'*B(2,:))+trace(S5'*B(3,:))+sum(S5)
   
